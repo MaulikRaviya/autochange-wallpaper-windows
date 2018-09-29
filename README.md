@@ -11,10 +11,7 @@ If you want to change this begaviour then edit `wall.cpp` file:
 Now to compile this, you must have a C++ compiler like MINGW installed. Here is a [quick quide to install MINGW in Wnidows 10](https://drive.google.com/open?id=1zRMhIJExoR-UW9T7gbtYwtaQzx1Kghwp).
 
 Compile wall.cpp and generate wall.exe using these comands:
-`
-cd "<here enter path of the folder which is contains wall.cpp>" 
-g++ wall.cpp -o wall
-`
+`cd "<here enter path of the folder which is contains wall.cpp>"` and then `g++ wall.cpp -o wall`
 It will generate wall.exe in to same folder.
 
 ### Step 2: Create schedule task
