@@ -50,12 +50,20 @@ int main(int argc, char *argv[]) // so no warnings about unref params
 
 		string wallFile;
 
-		if (hour >= 6 && hour < 21)
+		/* 
+		* Here hour and minute variables has current time
+		* img1.jpg, img2.jpg are in the same folder
+		* Now, Enter your custom logic for changing wallpaper according to time
+		*/
+		if (hour >= 6 && hour < 21) 
 		{
 			wallFile = string("img1.jpg");
 		} else {
 			wallFile = string("img2.jpg");
 		}
+		/* 
+		* My logic written above, will set 'img1.jpg' for '6 AM' to '9 PM' (22:00). And 'img2.jpg' for other time (9PM to 6AM).
+		*/
 
 		filePath = wallFile;
 
