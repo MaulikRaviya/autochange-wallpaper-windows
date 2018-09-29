@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+## What is this?
+This is a C++ program for Windows Operating System. Once compiled into EXE, it can **change the wallpapaer of your desktop accroding to current time of the day.**
 
-You can use the [editor on GitHub](https://github.com/MaulikRaviya/autochange-wallpaper-windows/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## How to use it?
+### Step 1(optional): Edit `wall.cpp` file and generate wall.exe file
+By default the precompiled exe file present in this repo, will set **'img1.jpg'** for **Daytime**('6 AM' to '9 PM'). And **'img2.jpg'** for night time **(9PM to 6AM)**.
+If you want to change this begaviour then edit `wall.cpp` file:
+![Edit wall.cpp file](/imges/edit_wall_cpp.JPG)
+Now to compile this, you must have a C++ compiler like MINGW installed. Here is a [quick quide to install MINGW in Wnidows 10](https://drive.google.com/open?id=1zRMhIJExoR-UW9T7gbtYwtaQzx1Kghwp).
+Then compile wall.cpp and generate wall.exe using these comands:
+`
+cd "<here enter path of the folder which is contains wall.cpp>" 
+g++ wall.cpp -o wall
+`
+It will generate wall.exe in to same folder.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MaulikRaviya/autochange-wallpaper-windows/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Step 2: Create schedule task
+Open start menu, and search and open "task schedular". And follow these steps:
+![step_1_6.JPG](/imges/step_1_6.JPG)
+![step_7_9.JPG](/imges/step_7_9.JPG)
+![step_10_12.JPG](/imges/step_10_12.JPG)
+![step_13_16.JPG](/imges/step_13_16.JPG)
+![step_17_20.jpg](/imges/step_17_20.jpg)
+![step_21.JPG](/imges/step_21.JPG)
+![step_22_23.JPG](/imges/step_22_23.JPG)
