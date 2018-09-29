@@ -4,10 +4,13 @@ This is a C++ program for Windows Operating System. Once compiled into EXE, it c
 ## How to use it?
 ### Step 1(optional): Edit `wall.cpp` file and generate wall.exe file
 By default the precompiled exe file present in this repo, will set **'img1.jpg'** for **Daytime**('6 AM' to '9 PM'). And **'img2.jpg'** for night time **(9PM to 6AM)**.
+
 If you want to change this begaviour then edit `wall.cpp` file:
 ![Edit wall.cpp file](/imges/edit_wall_cpp.JPG)
+
 Now to compile this, you must have a C++ compiler like MINGW installed. Here is a [quick quide to install MINGW in Wnidows 10](https://drive.google.com/open?id=1zRMhIJExoR-UW9T7gbtYwtaQzx1Kghwp).
-Then compile wall.cpp and generate wall.exe using these comands:
+
+Compile wall.cpp and generate wall.exe using these comands:
 `
 cd "<here enter path of the folder which is contains wall.cpp>" 
 g++ wall.cpp -o wall
